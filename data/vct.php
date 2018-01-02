@@ -1,7 +1,7 @@
 <?php
-namespace Slothsoft\CMS;
+namespace Slothsoft\Farah;
 
-use Slothsoft\Game\Name;
+use Slothsoft\Core\Game\Name;
 
 // my_dump($this->httpRequest->getInputValue('vct-create'));
 $retNode = null;
