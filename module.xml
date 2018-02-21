@@ -1,43 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module>
-	<fragment name="vct-home">
-		<struc name="/slothsoft/default" />
-		<fragment name="content">
-			<template name="vct-home" />
-			<style name="default" />
-		</fragment>
-		<call name="chat" />
-	</fragment>
+<?xml version="1.0"?>
+<module xmlns="http://schema.slothsoft.net/farah/module" xmlns:sfm="http://schema.slothsoft.net/farah/module">
+  <!--
+Farah Module Manifest
 
-	<fragment name="chat">
-		<param name="chat-database" value="vct" />
-		<template name="/chat/shoutbox" />
-		<call name="/chat/default" as="chat" />
-	</fragment>
+Module: webrtc
+Vendor: slothsoft
+Farah ID: farah://slothsoft@webrtc
+Composer ID: slothsoft/webrtc
 
-	<fragment name="vct-room">
-		<data name="vct" />
-		<style name="vct" />
-		<template name="vct-room" />
-		<struc name="/lib/WebRTC" />
-		<struc name="/core/DOM" />
-		<struc name="/sse/script" />
-		<script name="WebRTC" />
-		<script name="WebRTC.User" />
-		<style name="/slothsoft/default" />
-		<style name="/slothsoft/fonts" />
+Homepage: http://farah.slothsoft.net/modules/webrtc
+Packagist: https://packagist.org/packages/slothsoft/webrtc
+GitHub: https://github.com/Faulo/slothsoft-webrtc
 
-		<!--<call name="chat"/> -->
-	</fragment>
-
-
-	<fragment name="index">
-		<template name="_index" />
-		<struc name="/lib/WebRTC" />
-		<struc name="/core/DOM" />
-		<struc name="/sse/script" />
-		<script name="WebRTC" />
-		<script name="WebRTC.User" />
-		<param name="standalone" scope="global" />
-	</fragment>
+Llo
+-->
+  <default-configuration/>
+  <assets>
+    <resource-directory name="data" path="data" type="application/x-php"/>
+    <resource-directory name="css" path="stylesheet" type="text/css"/>
+    <resource-directory name="js" path="script" type="application/javascript"/>
+    <resource-directory name="xsl" path="template" type="application/xslt+xml"/>
+    <resource-directory name="dictionary" path="dictionary" type="application/xml"/>
+    <resource-directory name="pages" path="pages" type="application/xml"/>
+    <fragment name="vct-home">
+      <include-fragment ref="//slothsoft@slothsoft/default"/>
+      <fragment name="content">
+        <use-template ref="xsl/vct-home"/>
+        <use-stylesheet ref="css/default"/>
+      </fragment>
+      <use-document ref="chat"/>
+    </fragment>
+    <fragment name="chat">
+      <param name="chat-database" value="vct"/>
+      <use-template ref="//slothsoft@chat/xsl/shoutbox"/>
+      <use-document as="chat" ref="//slothsoft@chat/default"/>
+    </fragment>
+    <fragment name="vct-room">
+      <use-document ref="data/vct"/>
+      <use-stylesheet ref="css/vct"/>
+      <use-template ref="xsl/vct-room"/>
+      <include-fragment ref="//slothsoft@lib/WebRTC"/>
+      <include-fragment ref="//slothsoft@core/DOM"/>
+      <include-fragment ref="//slothsoft@sse/script"/>
+      <use-script ref="js/WebRTC"/>
+      <use-script ref="js/WebRTC.User"/>
+      <use-stylesheet ref="//slothsoft@slothsoft/css/default"/>
+      <use-stylesheet ref="//slothsoft@slothsoft/css/fonts"/>
+    </fragment>
+    <fragment name="index">
+      <use-template ref="xsl/_index"/>
+      <include-fragment ref="//slothsoft@lib/WebRTC"/>
+      <include-fragment ref="//slothsoft@core/DOM"/>
+      <include-fragment ref="//slothsoft@sse/script"/>
+      <use-script ref="js/WebRTC"/>
+      <use-script ref="js/WebRTC.User"/>
+      <param name="standalone" scope="global"/>
+    </fragment>
+    <directory name="static"/>
+  </assets>
 </module>
