@@ -24,7 +24,7 @@ Llo
     <resource-directory name="pages" path="pages" type="application/xml"/>
     <directory name="static"/>
     <fragment name="vct-home">
-      <include-fragment ref="//slothsoft@slothsoft/default"/>
+      <import ref="//slothsoft@slothsoft/default"/>
       <fragment name="content">
         <use-template ref="xsl/vct-home"/>
         <use-stylesheet ref="css/default"/>
@@ -40,9 +40,9 @@ Llo
       <use-document ref="data/vct"/>
       <use-stylesheet ref="css/vct"/>
       <use-template ref="xsl/vct-room"/>
-      <include-fragment ref="//slothsoft@lib/WebRTC"/>
-      <include-fragment ref="//slothsoft@core/DOM"/>
-      <include-fragment ref="//slothsoft@sse/script"/>
+      <import ref="//slothsoft@lib/WebRTC"/>
+      <import ref="//slothsoft@core/DOM"/>
+      <import ref="//slothsoft@sse/script"/>
       <use-script ref="js/WebRTC"/>
       <use-script ref="js/WebRTC.User"/>
       <use-stylesheet ref="//slothsoft@slothsoft/css/default"/>
@@ -50,9 +50,9 @@ Llo
     </fragment>
     <fragment name="index">
       <use-template ref="xsl/_index"/>
-      <include-fragment ref="//slothsoft@lib/WebRTC"/>
-      <include-fragment ref="//slothsoft@core/DOM"/>
-      <include-fragment ref="//slothsoft@sse/script"/>
+      <import ref="//slothsoft@lib/WebRTC"/>
+      <import ref="//slothsoft@core/DOM"/>
+      <import ref="//slothsoft@sse/script"/>
       <use-script ref="js/WebRTC"/>
       <use-script ref="js/WebRTC.User"/>
       <param name="standalone" scope="global"/>

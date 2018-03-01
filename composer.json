@@ -1,26 +1,23 @@
 {
-    "name": "slothsoft/webrtc",
-    "description": "A Farah module that implements the WebRTC spec.",
-    "keywords": [],
-    "license": "WTFPL",
-    "authors": [
-        {
-            "name": "Daniel Schulz",
-            "email": "info.slothsoft@gmail.com"
-        }
-    ],
-    "type": "library",
-    "require": {
+	"name" : "slothsoft/webrtc",
+	"description" : "A Farah module that implements the WebRTC spec.",
+	"license" : "WTFPL",
+	"authors" : [{
+			"name" : "Daniel Schulz",
+			"email" : "info.slothsoft@gmail.com"
+		}
+	],
+	"type" : "library",
+	"require" : {
 		"slothsoft/core" : "*",
-		
-		"php": ">=7.0"
-    },
-	"require-dev": {
-		"phpunit/phpunit": ">=6.0"
-    },
-	"autoload": {
-        "psr-4": {
-            "Slothsoft\\WebRTC\\": "php/"
-        }
-    }
+		"php" : ">=7.0"
+	},
+	"require-dev" : {
+		"phpunit/phpunit" : ">=6.0"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Slothsoft\\WebRTC\\" : "src/Slothsoft/WebRTC/"
+		}
+	}
 }
