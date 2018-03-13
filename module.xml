@@ -27,7 +27,7 @@ Llo
       <import ref="//slothsoft@slothsoft/default"/>
       <fragment name="content">
         <use-template ref="xsl/vct-home"/>
-        <use-stylesheet ref="css/default"/>
+        <link-stylesheet ref="css/default"/>
       </fragment>
       <use-document ref="chat"/>
     </fragment>
@@ -38,23 +38,23 @@ Llo
     </fragment>
     <fragment name="vct-room">
       <use-document ref="data/vct"/>
-      <use-stylesheet ref="css/vct"/>
+      <link-stylesheet ref="css/vct"/>
       <use-template ref="xsl/vct-room"/>
       <import ref="//slothsoft@lib/WebRTC"/>
       <import ref="//slothsoft@core/DOM"/>
       <import ref="//slothsoft@sse/script"/>
-      <use-script ref="js/WebRTC"/>
-      <use-script ref="js/WebRTC.User"/>
-      <use-stylesheet ref="//slothsoft@slothsoft/css/default"/>
-      <use-stylesheet ref="//slothsoft@slothsoft/css/fonts"/>
+      <link-script ref="js/WebRTC"/>
+      <link-script ref="js/WebRTC.User"/>
+      <link-stylesheet ref="//slothsoft@slothsoft/css/default"/>
+      <link-stylesheet ref="//slothsoft@slothsoft/css/fonts"/>
     </fragment>
     <fragment name="index">
       <use-template ref="xsl/_index"/>
       <import ref="//slothsoft@lib/WebRTC"/>
       <import ref="//slothsoft@core/DOM"/>
       <import ref="//slothsoft@sse/script"/>
-      <use-script ref="js/WebRTC"/>
-      <use-script ref="js/WebRTC.User"/>
+      <link-script ref="js/WebRTC"/>
+      <link-script ref="js/WebRTC.User"/>
       <param name="standalone" scope="global"/>
     </fragment>
   </assets>
