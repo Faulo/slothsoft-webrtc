@@ -24,20 +24,20 @@
       <use-document ref="data/vct"/>
       <link-stylesheet ref="css/vct"/>
       <use-template ref="xsl/vct-room"/>
-      <import ref="//slothsoft@lib/WebRTC"/>
       <import ref="//slothsoft@core/DOM"/>
       <import ref="//slothsoft@sse/script"/>
       <link-script ref="js/WebRTC"/>
+      <link-script ref="js/WebRTC.Adapter"/>
       <link-script ref="js/WebRTC.User"/>
       <link-stylesheet ref="//slothsoft@slothsoft/css/default"/>
       <link-stylesheet ref="//slothsoft@slothsoft/css/fonts"/>
     </fragment>
     <fragment name="index">
       <use-template ref="xsl/_index"/>
-      <import ref="//slothsoft@lib/WebRTC"/>
       <import ref="//slothsoft@core/DOM"/>
       <import ref="//slothsoft@sse/script"/>
       <link-script ref="js/WebRTC"/>
+      <link-script ref="js/WebRTC.Adapter"/>
       <link-script ref="js/WebRTC.User"/>
       <param name="standalone" scope="global"/>
     </fragment>
