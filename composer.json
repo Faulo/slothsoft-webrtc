@@ -32,10 +32,13 @@
 	},
 	"autoload" : {
 		"files" : [
-			"C:\\Webserver\\workspace\\slothsoft-webrtc\\src\\registerModule.php"
+			"src/registerModule.php"
 		],
 		"psr-0" : {
 			"Slothsoft\\WebRTC\\" : "src/"
 		}
-	}
+	},
+	"keywords" : [
+		"farah-app"
+	]
 }
