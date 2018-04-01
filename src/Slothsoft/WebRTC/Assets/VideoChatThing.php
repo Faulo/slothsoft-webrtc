@@ -1,4 +1,5 @@
 <?php
+declare(strict_types = 1);
 namespace Slothsoft\WebRTC\Assets;
 
 use Slothsoft\Core\Game\Name;
@@ -9,11 +10,12 @@ use Slothsoft\Farah\Module\Results\ResultCatalog;
 
 class VideoChatThing extends AssetImplementation
 {
-    protected function loadResult(FarahUrl $url) : ResultInterface {
+
+    protected function loadResult(FarahUrl $url): ResultInterface
+    {
         $args = $url->getArguments();
         
-        if ($name = $args->get('name')) {
-        } else {
+        if ($name = $args->get('name')) {} else {
             $name = md5($_SERVER['REQUEST_TIME_FLOAT'] . '-' . $_SERVER['REMOTE_ADDR']);
             $config = [];
             $config[Name::GENERATE_CONFIG_FIRSTNAMEONLY] = 0;
