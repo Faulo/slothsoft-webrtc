@@ -3,12 +3,12 @@ declare(strict_types = 1);
 namespace Slothsoft\WebRTC\Assets;
 
 use Slothsoft\Core\Game\Name;
-use Slothsoft\Farah\Module\Node\Asset\AssetImplementation;
+use Slothsoft\Farah\Module\Node\Asset\AssetBase;
 use Slothsoft\Farah\Module\FarahUrl\FarahUrl;
 use Slothsoft\Farah\Module\Results\ResultInterface;
 use Slothsoft\Farah\Module\Results\ResultCatalog;
 
-class VideoChatThing extends AssetImplementation
+class VideoChatThing extends AssetBase
 {
 
     protected function loadResult(FarahUrl $url): ResultInterface
