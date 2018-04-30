@@ -19,8 +19,6 @@
 		      <link-script ref="js/WebRTC"/>
 		      <link-script ref="js/WebRTC.Adapter"/>
 		      <link-script ref="js/WebRTC.User"/>
-		      <link-stylesheet ref="//slothsoft@slothsoft/css/default"/>
-		      <link-stylesheet ref="//slothsoft@slothsoft/css/fonts"/>
 		    </fragment>
 		</fragment>
     </fragment>
