@@ -1,24 +1,24 @@
 <?xml version="1.0"?>
 <assets xmlns="http://schema.slothsoft.net/farah/module">
-    <resource-directory name="css"  type="text/css"/>
-    <resource-directory name="js"  type="application/javascript"/>
-    <resource-directory name="xsl"  type="application/xslt+xml"/>
+    <resource-directory name="css" type="text/css"/>
+    <resource-directory name="js" type="application/javascript"/>
+    <resource-directory name="xsl" type="application/xslt+xml"/>
     
    <fragment name="html">
    		<fragment name="vct">
 			<fragment name="home">
-			  <use-template ref="xsl/vct-home"/>
-			  <link-stylesheet ref="css/default"/>
+			  <use-template ref="/xsl/vct-home"/>
+			  <link-stylesheet ref="/css/default"/>
 			</fragment>
 		    <fragment name="room">
-		      <use-document ref="api/vct"/>
-		      <link-stylesheet ref="css/vct"/>
-		      <use-template ref="xsl/vct-room"/>
+		      <use-document ref="/api/vct"/>
+		      <link-stylesheet ref="/css/vct"/>
+		      <use-template ref="/xsl/vct-room"/>
 		      <import ref="//slothsoft@core/api/DOM"/>
 		      <import ref="//slothsoft@sse/api/client"/>
-		      <link-script ref="js/WebRTC"/>
-		      <link-script ref="js/WebRTC.Adapter"/>
-		      <link-script ref="js/WebRTC.User"/>
+		      <link-script ref="/js/WebRTC"/>
+		      <link-script ref="/js/WebRTC.Adapter"/>
+		      <link-script ref="/js/WebRTC.User"/>
 		    </fragment>
 		</fragment>
     </fragment>
