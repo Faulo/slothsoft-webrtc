@@ -7,18 +7,18 @@
    <fragment name="html">
    		<fragment name="vct">
 			<fragment name="home">
-			  <use-template ref="/xsl/vct-home"/>
-			  <link-stylesheet ref="/css/default"/>
+			  <use-template ref="/xsl/vct-home" name="vct-home"/>
+			  <link-stylesheet ref="/css/default" name="default"/>
 			</fragment>
 		    <fragment name="room">
-		      <use-document ref="/api/vct"/>
-		      <link-stylesheet ref="/css/vct"/>
-		      <use-template ref="/xsl/vct-room"/>
-		      <import ref="//slothsoft@core/api/DOM"/>
-		      <import ref="//slothsoft@sse/api/client"/>
-		      <link-script ref="/js/WebRTC"/>
-		      <link-script ref="/js/WebRTC.Adapter"/>
-		      <link-script ref="/js/WebRTC.User"/>
+		      <use-document ref="/api/vct" name="vct"/>
+		      <link-stylesheet ref="/css/vct" name="vct"/>
+		      <use-template ref="/xsl/vct-room" name="vct-room"/>
+		      <import ref="//slothsoft@core/api/DOM" name="DOM"/>
+		      <import ref="//slothsoft@sse/api/client" name="client"/>
+		      <link-script ref="/js/WebRTC" name="WebRTC"/>
+		      <link-script ref="/js/WebRTC.Adapter" name="WebRTC.Adapter"/>
+		      <link-script ref="/js/WebRTC.User" name="WebRTC.User"/>
 		    </fragment>
 		</fragment>
     </fragment>
