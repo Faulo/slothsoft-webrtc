@@ -28,9 +28,8 @@
         ]
     },
     "keywords": [
-        "farah-app",
-        "farah-module",
-        "slothsoft"
+        "slothsoft",
+        "farah-module"
     ],
     "autoload-dev": {
         "classmap": [
