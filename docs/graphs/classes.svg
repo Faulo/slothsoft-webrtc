@@ -21,58 +21,58 @@
 <path fill="none" stroke="gray" d="M565.856,-24C565.856,-24 745.856,-24 745.856,-24 751.856,-24 757.856,-30 757.856,-36 757.856,-36 757.856,-254 757.856,-254 757.856,-260 751.856,-266 745.856,-266 745.856,-266 565.856,-266 565.856,-266 559.856,-266 553.856,-260 553.856,-254 553.856,-254 553.856,-36 553.856,-36 553.856,-30 559.856,-24 565.856,-24"/>
 <text text-anchor="middle" x="655.856" y="-253.2" font-family="Times New Roman,serif" font-size="11.00" fill="gray">WebRTC</text>
 </g>
-<g id="clust4" class="cluster"><title>cluster_\Slothsoft\WebRTC\Executables</title>
-<path fill="none" stroke="gray" d="M573.856,-112C573.856,-112 737.856,-112 737.856,-112 743.856,-112 749.856,-118 749.856,-124 749.856,-124 749.856,-226 749.856,-226 749.856,-232 743.856,-238 737.856,-238 737.856,-238 573.856,-238 573.856,-238 567.856,-238 561.856,-232 561.856,-226 561.856,-226 561.856,-124 561.856,-124 561.856,-118 567.856,-112 573.856,-112"/>
-<text text-anchor="middle" x="655.856" y="-225.2" font-family="Times New Roman,serif" font-size="11.00" fill="gray">Executables</text>
+<g id="clust4" class="cluster"><title>cluster_\Slothsoft\WebRTC\Assets</title>
+<path fill="none" stroke="gray" d="M604.356,-166C604.356,-166 707.356,-166 707.356,-166 713.356,-166 719.356,-172 719.356,-178 719.356,-178 719.356,-226 719.356,-226 719.356,-232 713.356,-238 707.356,-238 707.356,-238 604.356,-238 604.356,-238 598.356,-238 592.356,-232 592.356,-226 592.356,-226 592.356,-178 592.356,-178 592.356,-172 598.356,-166 604.356,-166"/>
+<text text-anchor="middle" x="655.856" y="-225.2" font-family="Times New Roman,serif" font-size="11.00" fill="gray">Assets</text>
 </g>
-<g id="clust5" class="cluster"><title>cluster_\Slothsoft\WebRTC\Assets</title>
-<path fill="none" stroke="gray" d="M604.356,-32C604.356,-32 707.356,-32 707.356,-32 713.356,-32 719.356,-38 719.356,-44 719.356,-44 719.356,-92 719.356,-92 719.356,-98 713.356,-104 707.356,-104 707.356,-104 604.356,-104 604.356,-104 598.356,-104 592.356,-98 592.356,-92 592.356,-92 592.356,-44 592.356,-44 592.356,-38 598.356,-32 604.356,-32"/>
-<text text-anchor="middle" x="655.856" y="-91.2" font-family="Times New Roman,serif" font-size="11.00" fill="gray">Assets</text>
-</g>
-<!-- \\Slothsoft\\WebRTC\\Executables\\RoomExecutable -->
-<g id="node1" class="node"><title>\\Slothsoft\\WebRTC\\Executables\\RoomExecutable</title>
-<polygon fill="none" stroke="black" points="711.356,-210 600.356,-210 600.356,-174 711.356,-174 711.356,-210"/>
-<text text-anchor="middle" x="655.856" y="-189.2" font-family="Courier,monospace" font-size="11.00">RoomExecutable</text>
-</g>
-<!-- \\Slothsoft\\Farah\\Module\\Executables\\ExecutableDOMWriterBase -->
-<g id="node4" class="node"><title>\\Slothsoft\\Farah\\Module\\Executables\\ExecutableDOMWriterBase</title>
-<ellipse fill="none" stroke="black" cx="248.928" cy="-192" rx="248.856" ry="18"/>
-<text text-anchor="middle" x="248.928" y="-188.3" font-family="Times New Roman,serif" font-size="14.00" fill="gray">\Slothsoft\Farah\Module\Executables\ExecutableDOMWriterBase</text>
-</g>
-<!-- \\Slothsoft\\WebRTC\\Executables\\RoomExecutable&#45;&gt;\\Slothsoft\\Farah\\Module\\Executables\\ExecutableDOMWriterBase -->
-<g id="edge1" class="edge"><title>\\Slothsoft\\WebRTC\\Executables\\RoomExecutable&#45;&gt;\\Slothsoft\\Farah\\Module\\Executables\\ExecutableDOMWriterBase</title>
-<path fill="none" stroke="black" d="M600.245,-192C574.9,-192 542.756,-192 508.266,-192"/>
-<polygon fill="none" stroke="black" points="507.988,-188.5 497.988,-192 507.988,-195.5 507.988,-188.5"/>
-</g>
-<!-- \\Slothsoft\\WebRTC\\Executables\\WebRTCExecutableCreator -->
-<g id="node2" class="node"><title>\\Slothsoft\\WebRTC\\Executables\\WebRTCExecutableCreator</title>
-<polygon fill="none" stroke="black" points="741.856,-156 569.856,-156 569.856,-120 741.856,-120 741.856,-156"/>
-<text text-anchor="middle" x="655.856" y="-135.2" font-family="Courier,monospace" font-size="11.00">WebRTCExecutableCreator</text>
-</g>
-<!-- \\Slothsoft\\Farah\\Module\\Executables\\ExecutableCreator -->
-<g id="node5" class="node"><title>\\Slothsoft\\Farah\\Module\\Executables\\ExecutableCreator</title>
-<ellipse fill="none" stroke="black" cx="248.928" cy="-138" rx="214.462" ry="18"/>
-<text text-anchor="middle" x="248.928" y="-134.3" font-family="Times New Roman,serif" font-size="14.00" fill="gray">\Slothsoft\Farah\Module\Executables\ExecutableCreator</text>
-</g>
-<!-- \\Slothsoft\\WebRTC\\Executables\\WebRTCExecutableCreator&#45;&gt;\\Slothsoft\\Farah\\Module\\Executables\\ExecutableCreator -->
-<g id="edge2" class="edge"><title>\\Slothsoft\\WebRTC\\Executables\\WebRTCExecutableCreator&#45;&gt;\\Slothsoft\\Farah\\Module\\Executables\\ExecutableCreator</title>
-<path fill="none" stroke="black" d="M569.476,-138C540.966,-138 507.736,-138 473.694,-138"/>
-<polygon fill="none" stroke="black" points="473.593,-134.5 463.593,-138 473.593,-141.5 473.593,-134.5"/>
+<g id="clust5" class="cluster"><title>cluster_\Slothsoft\WebRTC\Executables</title>
+<path fill="none" stroke="gray" d="M573.856,-32C573.856,-32 737.856,-32 737.856,-32 743.856,-32 749.856,-38 749.856,-44 749.856,-44 749.856,-146 749.856,-146 749.856,-152 743.856,-158 737.856,-158 737.856,-158 573.856,-158 573.856,-158 567.856,-158 561.856,-152 561.856,-146 561.856,-146 561.856,-44 561.856,-44 561.856,-38 567.856,-32 573.856,-32"/>
+<text text-anchor="middle" x="655.856" y="-145.2" font-family="Times New Roman,serif" font-size="11.00" fill="gray">Executables</text>
 </g>
 <!-- \\Slothsoft\\WebRTC\\Assets\\VideoChatThing -->
-<g id="node3" class="node"><title>\\Slothsoft\\WebRTC\\Assets\\VideoChatThing</title>
-<polygon fill="none" stroke="black" points="711.356,-76 600.356,-76 600.356,-40 711.356,-40 711.356,-76"/>
-<text text-anchor="middle" x="655.856" y="-55.2" font-family="Courier,monospace" font-size="11.00">VideoChatThing</text>
+<g id="node1" class="node"><title>\\Slothsoft\\WebRTC\\Assets\\VideoChatThing</title>
+<polygon fill="none" stroke="black" points="711.356,-210 600.356,-210 600.356,-174 711.356,-174 711.356,-210"/>
+<text text-anchor="middle" x="655.856" y="-189.2" font-family="Courier,monospace" font-size="11.00">VideoChatThing</text>
 </g>
 <!-- \\Slothsoft\\Farah\\Module\\Node\\Asset\\AssetBase -->
-<g id="node6" class="node"><title>\\Slothsoft\\Farah\\Module\\Node\\Asset\\AssetBase</title>
-<ellipse fill="none" stroke="black" cx="248.928" cy="-58" rx="185.467" ry="18"/>
-<text text-anchor="middle" x="248.928" y="-54.3" font-family="Times New Roman,serif" font-size="14.00" fill="gray">\Slothsoft\Farah\Module\Node\Asset\AssetBase</text>
+<g id="node4" class="node"><title>\\Slothsoft\\Farah\\Module\\Node\\Asset\\AssetBase</title>
+<ellipse fill="none" stroke="black" cx="248.928" cy="-192" rx="185.467" ry="18"/>
+<text text-anchor="middle" x="248.928" y="-188.3" font-family="Times New Roman,serif" font-size="14.00" fill="gray">\Slothsoft\Farah\Module\Node\Asset\AssetBase</text>
 </g>
 <!-- \\Slothsoft\\WebRTC\\Assets\\VideoChatThing&#45;&gt;\\Slothsoft\\Farah\\Module\\Node\\Asset\\AssetBase -->
-<g id="edge3" class="edge"><title>\\Slothsoft\\WebRTC\\Assets\\VideoChatThing&#45;&gt;\\Slothsoft\\Farah\\Module\\Node\\Asset\\AssetBase</title>
-<path fill="none" stroke="black" d="M600.245,-58C559.72,-58 501.816,-58 444.726,-58"/>
-<polygon fill="none" stroke="black" points="444.456,-54.5001 434.456,-58 444.456,-61.5001 444.456,-54.5001"/>
+<g id="edge1" class="edge"><title>\\Slothsoft\\WebRTC\\Assets\\VideoChatThing&#45;&gt;\\Slothsoft\\Farah\\Module\\Node\\Asset\\AssetBase</title>
+<path fill="none" stroke="black" d="M600.245,-192C559.72,-192 501.816,-192 444.726,-192"/>
+<polygon fill="none" stroke="black" points="444.456,-188.5 434.456,-192 444.456,-195.5 444.456,-188.5"/>
+</g>
+<!-- \\Slothsoft\\WebRTC\\Executables\\RoomExecutable -->
+<g id="node2" class="node"><title>\\Slothsoft\\WebRTC\\Executables\\RoomExecutable</title>
+<polygon fill="none" stroke="black" points="711.356,-130 600.356,-130 600.356,-94 711.356,-94 711.356,-130"/>
+<text text-anchor="middle" x="655.856" y="-109.2" font-family="Courier,monospace" font-size="11.00">RoomExecutable</text>
+</g>
+<!-- \\Slothsoft\\Farah\\Module\\Executables\\ExecutableDOMWriterBase -->
+<g id="node5" class="node"><title>\\Slothsoft\\Farah\\Module\\Executables\\ExecutableDOMWriterBase</title>
+<ellipse fill="none" stroke="black" cx="248.928" cy="-112" rx="248.856" ry="18"/>
+<text text-anchor="middle" x="248.928" y="-108.3" font-family="Times New Roman,serif" font-size="14.00" fill="gray">\Slothsoft\Farah\Module\Executables\ExecutableDOMWriterBase</text>
+</g>
+<!-- \\Slothsoft\\WebRTC\\Executables\\RoomExecutable&#45;&gt;\\Slothsoft\\Farah\\Module\\Executables\\ExecutableDOMWriterBase -->
+<g id="edge2" class="edge"><title>\\Slothsoft\\WebRTC\\Executables\\RoomExecutable&#45;&gt;\\Slothsoft\\Farah\\Module\\Executables\\ExecutableDOMWriterBase</title>
+<path fill="none" stroke="black" d="M600.245,-112C574.9,-112 542.756,-112 508.266,-112"/>
+<polygon fill="none" stroke="black" points="507.988,-108.5 497.988,-112 507.988,-115.5 507.988,-108.5"/>
+</g>
+<!-- \\Slothsoft\\WebRTC\\Executables\\WebRTCExecutableCreator -->
+<g id="node3" class="node"><title>\\Slothsoft\\WebRTC\\Executables\\WebRTCExecutableCreator</title>
+<polygon fill="none" stroke="black" points="741.856,-76 569.856,-76 569.856,-40 741.856,-40 741.856,-76"/>
+<text text-anchor="middle" x="655.856" y="-55.2" font-family="Courier,monospace" font-size="11.00">WebRTCExecutableCreator</text>
+</g>
+<!-- \\Slothsoft\\Farah\\Module\\Executables\\ExecutableCreator -->
+<g id="node6" class="node"><title>\\Slothsoft\\Farah\\Module\\Executables\\ExecutableCreator</title>
+<ellipse fill="none" stroke="black" cx="248.928" cy="-58" rx="214.462" ry="18"/>
+<text text-anchor="middle" x="248.928" y="-54.3" font-family="Times New Roman,serif" font-size="14.00" fill="gray">\Slothsoft\Farah\Module\Executables\ExecutableCreator</text>
+</g>
+<!-- \\Slothsoft\\WebRTC\\Executables\\WebRTCExecutableCreator&#45;&gt;\\Slothsoft\\Farah\\Module\\Executables\\ExecutableCreator -->
+<g id="edge3" class="edge"><title>\\Slothsoft\\WebRTC\\Executables\\WebRTCExecutableCreator&#45;&gt;\\Slothsoft\\Farah\\Module\\Executables\\ExecutableCreator</title>
+<path fill="none" stroke="black" d="M569.476,-58C540.966,-58 507.736,-58 473.694,-58"/>
+<polygon fill="none" stroke="black" points="473.593,-54.5001 463.593,-58 473.593,-61.5001 473.593,-54.5001"/>
 </g>
 </g>
 </svg>
