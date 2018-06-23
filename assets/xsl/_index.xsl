@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0"
-	xmlns="http://www.w3.org/1999/xhtml"
+<xsl:stylesheet version="1.0" xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-	
+
 	<xsl:template match="/*">
 		<html>
 			<head>
@@ -53,9 +52,12 @@ body {
 			]]></style>
 			</head>
 			<body>
-				<div id="WebRTC-video"/>
+				<div id="WebRTC-video" />
 				<pre id="WebRTC-log">
-					<em class="credits">WebRTC thing powered by <a href="http://slothsoft.net/VideoChatThing/">Slothsoft</a></em>
+					<em class="credits">
+						WebRTC thing powered by
+						<a href="http://slothsoft.net/VideoChatThing/">Slothsoft</a>
+					</em>
 				</pre>
 			</body>
 		</html>
