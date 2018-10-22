@@ -1,7 +1,7 @@
 {
     "name": "slothsoft/webrtc",
     "description": "A Farah module that implements the WebRTC spec.",
-    "license": "GPL",
+    "license": "WTFPL",
     "authors": [
         {
             "name": "Daniel Schulz",
